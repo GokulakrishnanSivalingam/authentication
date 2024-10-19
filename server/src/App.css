@@ -1,0 +1,49 @@
+    * {
+        margin: 0%
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(212, 211, 211);
+    }
+    
+    fieldset {
+        width: fit-content;
+        border-radius: 0px;
+        border: none;
+        background-color: white;
+    }
+    
+    input {
+        width: 220px;
+        height: 30px;
+        border-radius: 2px;
+        border: 1px solid grey;
+    }
+    
+    .check input {
+        width: fit-content;
+        height: fit-content;
+        margin-top: 12px;
+    }
+    
+    .check span {
+        margin: 5px;
+    }
+    
+    button {
+        background-color: blue;
+        color: white;
+        width: 120px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid blue;
+    }
+    
+    button:hover {
+        background-color: darkblue;
+    }
