@@ -1,0 +1,58 @@
+body {
+    /*background-color: rgb(87, 120, 252);*/
+    margin-top: 110px;
+    margin-bottom: 110px;
+    font-family: "kanit";
+    place-items: center;
+}
+
+button {
+    height: 35px;
+    width: 135px;
+    border-radius: 4px;
+    background-color: rgb(90, 80, 236);
+    color: aliceblue;
+    gap: 50px;
+    border: 3px;
+    align-items: center;
+}
+
+fieldset {
+    background-color: white;
+    width: fit-content;
+    border: 1px solid grey;
+}
+
+p1 {
+    font-family: kanit;
+    font-size: medium;
+}
+
+input {
+    height: 30px;
+    width: 270px;
+    border: 2px;
+}
+
+.form-control input {
+    border: 1px solid grey;
+}
+
+form-control input:focus {
+    outline: none;
+    color: rgb(95, 44, 236);
+}
+
+.form-control input {
+    border: 1px solid grey;
+}
+
+label {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.form-control {
+    justify-content: center;
+    display: flex;
+}
